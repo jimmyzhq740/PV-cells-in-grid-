@@ -6,3 +6,4 @@ The project focuses on addressing the power distribution challenge within a grid
 # Project Objectives:
 * To provide sufficient power to the LEDs from emulated PV panels. This ensures op- timal visibility of the lights by the robot’s camera.
 * To maintain LEDs’ performance under all conditions. This includes the conditions where the excessive power can be stored in the capacitor, and conversely, when the PV panels fail to provide sufficient power, the stored energy can be utilized to supply the LEDs.
+  
