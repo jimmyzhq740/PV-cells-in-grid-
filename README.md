@@ -25,7 +25,7 @@ The second part of the project involves developing a closed-loop control scheme 
 
 The process begins by setting a reference current, which is then compared to the measured output voltage with a tolerance of ±5mA. Based on this comparison, the duty cycle is adjusted accordingly. The incrementing of the duty cycle is achieved by modifying the variable "pwm out."
 
-<p align="center"> <img src="images/current_control.png" alt="image" width="300" height="auto">
+<p align="center"> <img src="images/current_control.png" alt="image" width="100" height="auto">
 
 ## Data Transmission
 The final phase of the project involves transmitting LED-related data to the server, with implementation detailed in the UI folder. Utilizing the Raspberry Pico W, a Wi-Fi connection is established, and the "current_control.py" script incorporates the necessary logic. This includes using the "urequest" library to send JSON-formatted data via HTTP requests to a specific API endpoint on the backend server. The backend, represented by the "index.js" file, processes this incoming data and updates the AWS database using SQL requests. Simultaneously, the front-end user interface, as described in the "table.js" file, sends requests to the server to retrieve and display beacon data, ensuring seamless communication between the LED control system and the server-based database and user interface.
