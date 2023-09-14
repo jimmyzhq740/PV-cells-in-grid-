@@ -1,0 +1,133 @@
+html {
+  background-color: bisque;
+}
+
+
+.movement-buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px; /* Adjust the margin-top value as needed */
+  margin-left: -60px; /* Adjust the margin-left value as needed */
+}
+
+.movement-buttons button {
+  width: 80px; /* Adjust the width as desired */
+  height: 40px; /* Adjust the height as desired */
+  font-size: 18px; /* Adjust the font-size as desired */
+  margin-left: 30px; /* Adjust the margin-right value as needed */
+  margin-bottom: 10px; /* Adjust the margin-bottom value as needed */
+}
+
+.matrix-header {
+  position: absolute;
+  top: 0;
+  left: 220px; /* Adjust the left value as desired */
+  margin-top: 130px; /* Adjust the margin-top value as needed */
+}
+
+.matrix-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 40px; /* Increase the margin-bottom value for more space */
+  margin-top: 100px;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.start-button {
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  margin-left: 50px; /* Increase the margin-left value for more space */
+  margin-top: 100px;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 50px; /* Increase the margin-bottom value for more space */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Added */
+}
+
+.data-table {
+  width: 100%;
+  border-spacing: 0.5rem; /* Increase the spacing between cells */
+}
+
+.data-table th,
+.data-table td {
+  padding: 0.5rem; /* Increase the padding around cell content */
+}
+
+
+.table-container {
+  flex: 1;
+  margin-left: 100px; /* Added */
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; /* Added */
+  margin-left: 200px; /* Added */
+}
+
+.frames-container {
+  margin-top: -300px; /* Adjust the margin-top value as needed */
+  margin-left: 800px; /* Adjust the margin-left value as needed */
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.ikun{
+  margin-left: -300px; /* Added */
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
