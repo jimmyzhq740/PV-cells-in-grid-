@@ -19,7 +19,7 @@ The algorithm is coded in .ino format and is implemented on an Arduino Uno. Thro
 
 The flow chart visually depicts the decision tree based on the I-V and P-V characteristics. The maximum power point (MPP) is attained when the change in power concerning voltage is zero (dP /dV = 0). This signifies that the PV panel is operating at its peak power output. Alternatively, each branch within the chart indicates whether the value is on the left or right side of the MPP and whether it is moving closer to or farther away from it. When approaching the MPP from the left, voltage can be increased, whereas approaching from the right necessitates a voltage decrease to reach the MPP.
 
-<p align="centre"> <img src="images/PV2.png" alt="image" width="300" height="auto">
+<p align="centre"> <img src="images/PV2.png" alt="image" width="300" height="auto" class="center">
 
 
 ## Closed Loop Control
